@@ -29,7 +29,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-2 px-10 sm:mr-10 "
+        <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-4 px-10 sm:mr-10 "
         >
           {images.map(({ id, src, style, title }) => (
             <div

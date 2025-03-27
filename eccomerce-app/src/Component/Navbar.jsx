@@ -18,8 +18,9 @@ const Navbar = () => {
       className="flex justify-between items-center  bg-gradient-to-tr from-slate-700 to-gray-700
       w-full h-15 text-white fixed"
     >
+      
       <div>
-        <h1 className="text-3xl ml-2 font-signature">Mohit Saini</h1>
+        <h1 className="text-xl ml-2 font-signature">Mohit Saini</h1>
       </div>
 
       <ul className="hidden md:flex  justify-between items-center  h-10 w-1/2 mr-12">

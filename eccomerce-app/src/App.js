@@ -10,24 +10,14 @@ import './index.css';
 export default function App() {
   
   return (
-    <>
-  
-    <Navbar/>
-  
-    {/* <Router>
-      <Routes>
-      <Route path='/'element={<Home/>} />
-      <Route path='/about' element={<About/>}/>
-      <Route path='/experince'element={ <Experience/>}/>
-      <Route path='/contact'element={<Contact/>}/>
-      </Routes>
-    </Router> */}
-     
+    <div>
+
+    <Navbar/> 
      <Home/>
     <About/>
     <Experience/> 
      <Contact/>
    
-        </>
+        </div>
   )  
 }   

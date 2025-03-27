@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="max-h-screen  w-full text-black">
+    <div name="home" className="sm:min-h-screen lg:h-screen w-full text-black">
       {/* max-h-screen   md:max-h-screen */}
       <div
         className="max-w-screen-lg mx-auto flex flex-col items-center 

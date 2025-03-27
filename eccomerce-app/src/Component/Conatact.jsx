@@ -7,13 +7,13 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
   
   return (
-    <div name="contact"  className=" w-full max-h-screen mt-30">
-      <div className="flex flex-col min-w-screen-lg mx-auto h-full px-4">
+    <div name="contact"  className=" w-full max-h-screen ">
+      <div className="flex flex-col min-w-screen-lg mx-auto  px-4">
         <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 mr-0">
             Contact
           </p>
-          <p className="py-6 text-2xl">
+          <p className="py-6 text-2xl ">
             Submit the below form to get in touch with me
           </p>
         </div>
@@ -59,9 +59,9 @@ const Contact = () => {
             </a>
           </div>
           <div className="">
-            <a href="mohit911545@gmail.com">
+            <a href='mailto:mohit911545@gmail.com'>
               <MdEmail style={{ width: "30", height: "30" }} />
-              E-mail
+              Mail
               </a>
           
           </div>

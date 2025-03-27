@@ -1,13 +1,13 @@
 import React from "react";
 
 const About = () => {
-  return (
+  return ( 
     <div name="about" className="w-full max-h-screen  ">
       <div className="justify-center items-center px-2 ">
-        <p className="text-4xl sm:7xl font-bold underline mt-10">About</p>
+        <p className="text-4xl sm:7xl font-bold underline ">About</p>
       </div>
       <div className="max-w-screen-lg h-auto justify-center text-xl flex flex-col px-4 md:flex-row">
-        <p className=" py-2 mx-w-md gap-5">
+        <p className=" py-2 mx-w-md gap-5  ">
           I am a passionate React.js developer with experience in building
           dynamic, responsive, and high-performance web applications. My
           expertise lies in developing clean and maintainable code, utilizing

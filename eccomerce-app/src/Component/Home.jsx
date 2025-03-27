@@ -5,13 +5,10 @@ import { Link } from "react-scroll";
 // import Experience from "./Experience";
 // import Conatact from "./Conatact";
 
-
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="max-h-screen   md:max-h-screen w-full text-black"
-    >
+    <div name="home" className="max-h-screen  w-full text-black">
+      {/* max-h-screen   md:max-h-screen */}
       <div
         className="max-w-screen-lg mx-auto flex flex-col items-center 
       justify-between px-3 h-full md:flex-row "
@@ -57,15 +54,17 @@ const Home = () => {
           <img
             src={Mohit}
             alt="img"
-            className=" rounded-2xl  h-[75%] w-[75%] ml-10 md:mt-20 md:h-[90%]w-[80%]  "
+            className=" rounded-xl  h-[75%] w-[75%] ml-10 md:mt-20 md:h-[90%]w-[80%]  "
           />
         </div>
-        <div className="flex justify-between p-2 text-l font-medium  md:hidden">
+        <div className="flex justify-between p-2 text-l font-medium mt-0 md:hidden">
           <button
             className="bg-cyan-400 rounded-lg  px-6 py-3 
           hover:scale-110 duration-300  "
           >
-            DownloadCv
+            <a href={require("../Assets/mp.pdf")} download={"Resume.pdf"}>
+              DownloadCv
+            </a>
           </button>
           <button
             className="bg-cyan-400 rounded-lg px-6 py-3

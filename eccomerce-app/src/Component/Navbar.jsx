@@ -52,8 +52,8 @@ const Navbar = () => {
               <li
                 key={id.link}
                 className=" lg:hidden
-             font-medium cursor-pointer justify-center
-             text-grey-600 text-xl uppercase text-white px-4"
+             font-medium cursor-pointer capitalize justify-center
+             text-grey-600 text-xl  text-white px-4 pr-2"
               >
                 <Link
                   onClick={() => setNav(!nav)}

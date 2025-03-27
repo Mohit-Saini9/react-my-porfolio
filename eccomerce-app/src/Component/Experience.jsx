@@ -21,15 +21,15 @@ const Experience = () => {
   ];
 
   return (
-    <div name="experience"  className=" w-full min-h-screen  ">
-      <div className="mx-auto">
+    <div name="experience"  className=" w-full ">
+      <div className="mx-auto   w-full">
         <div className="px-2 ">
           <p className="text-4xl font-bold underline text-gray-500 transition-all ">
             Experience{" "}
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-4 px-10 sm:mr-10 "
+        <div className="w-full  grid grid-cols-2   md:grid-cols-3 gap-4 px-10 sm:mr-10  "
         >
           {images.map(({ id, src, style, title }) => (
             <div

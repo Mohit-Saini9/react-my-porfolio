@@ -41,19 +41,19 @@ const Navbar = () => {
         onClick={() => setNav(!nav)}
         className="md:hidden  z-10 cursor-pointer mr-4 "
       >
-        {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 
         {nav && (
           <ul
             className="flex flex-col justify-center items-start absolute mt-4
-        left-0 w-[95%] min-h[250] mx-4 bg-gradient-to-bl to from-black to-gray-600  rounded-xl"
+        left-0 w-[95%] min-h[250] mx-3 bg-gradient-to-bl to from-black to-gray-600  rounded-xl"
           >
             {links.map(({ id, link }) => (
               <li
                 key={id.link}
                 className=" lg:hidden
              font-medium cursor-pointer capitalize justify-center
-             text-grey-600 text-xl  text-white px-4 pr-2"
+             text-grey-600 text-xl  text-white px-4 "
               >
                 <Link
                   onClick={() => setNav(!nav)}

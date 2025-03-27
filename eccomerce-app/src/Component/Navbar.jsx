@@ -9,7 +9,7 @@ const Navbar = () => {
     { id: 1, link: "home" },
     { id: 2, link: "about" },
     { id: 3, link: "experience" },
-    { id: 1, link: "contact" },
+    { id: 4, link: "contact" },
   ];
 
  
@@ -41,7 +41,7 @@ const Navbar = () => {
         onClick={() => setNav(!nav)}
         className="md:hidden  z-10 cursor-pointer mr-4 "
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
 
         {nav && (
           <ul

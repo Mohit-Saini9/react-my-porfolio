@@ -10,7 +10,7 @@ const Contact = () => {
     <div name="contact"  className=" w-full max-h-screen  ">
       <div className="flex flex-col min-w-screen-lg mx-auto  px-4">
         <div className="pb-8 ">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 mr-0">
+          <p className="text-4xl font-bold inline border-b-4 border-black mr-0">
             Contact
           </p>
           <p className="py-6 text-2xl ">

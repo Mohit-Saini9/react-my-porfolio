@@ -24,7 +24,7 @@ const Experience = () => {
     <div name="experience"  className=" w-full ">
       <div className="mx-auto   w-full">
         <div className="px-2 ">
-          <p className="text-4xl font-bold underline text-gray-500 transition-all  ">
+          <p className="text-4xl font-bold underline  transition-all  ">
             Experience
           </p>
         </div>

@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="sm:min-h-screen lg:h-screen w-full text-black">
+    <div name="home" className="sm:min-h-screen lg:h-screen md:h-screen w-full text-black">
       {/* max-h-screen   md:max-h-screen */}
       <div
         className="max-w-screen-lg mx-auto flex flex-col items-center 
@@ -31,7 +31,7 @@ const Home = () => {
             contributed to projects involving responsive web design, RESTful
             APIs, and state management, demonstratings */}
           </p>
-          <div className="justify-between justify-items-center items-center  max-md:hidden ">
+          <div className=" flex  justify-items-center items-center max-md:hidden  ">
             <button
               className="bg-cyan-400 rounded-lg  px-6 py-3 
           hover:scale-110 duration-300 "

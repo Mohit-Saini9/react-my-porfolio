@@ -29,7 +29,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full  grid grid-cols-2   md:grid-cols-3 gap-4 px-10 sm:mr-10  "
+        <div className="w-full   gap-4 grid grid-cols-2   md:grid-cols-3  px-10 sm:mr-10  "
         >
           {images.map(({ id, src, style, title }) => (
             <div
@@ -40,9 +40,10 @@ const Experience = () => {
               <img
                 src={src}
                 alt="img"
-                className="w-40 mx-auto border-2 object-conatain
-                  rounded-lg md:h-[70%]w-[60%] "
+                className="w-40 mx-auto border-2 
+                  rounded-lg md:w-48 h-48 object-fit  "
               />
+              {/* object-conatain                   rounded-lg md:h-[70%]w-[60%] */}
               <p className="mt-4 text-center text-xl font-medium">{title}</p>
             </div>
           ))}

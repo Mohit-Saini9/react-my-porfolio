@@ -40,8 +40,8 @@ const Experience = () => {
               <img
                 src={src}
                 alt="img"
-                className="w-40 mx-auto border-2 
-                  rounded-lg md:w-48 h-48 object-fit  "
+                className="w-40 h-40 mx-auto border-2 
+                  rounded-lg md:w-48,h-48   object-fit  "
               />
               {/* object-conatain                   rounded-lg md:h-[70%]w-[60%] */}
               <p className="mt-4 text-center text-xl font-medium">{title}</p>

@@ -3,11 +3,9 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
-
 const Contact = () => {
-  
   return (
-    <div name="contact"  className=" w-full   text-white">
+    <div name="contact" className=" w-full   text-white">
       <div className="flex flex-col min-w-screen-lg mx-auto  px-4">
         <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 text-black border-black mr-0">
@@ -51,26 +49,27 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="inline-flex gap-10 text-xl font-medium items-center justify-center 
-        mb-5 w-full h-20   bg-gradient-to-tr from-slate-700 to-gray-600 text-white rounded-lg  ">
+        <div
+          className="inline-flex gap-10 text-xl font-medium items-center justify-center 
+        mb-5 w-full h-20   bg-gradient-to-tr from-slate-700 to-gray-600 text-white rounded-lg  "
+        >
           <div className="hover:scale-110 duration-300">
-          <a href="https://github.com/Mohit-Saini9">
+            <a href="https://github.com/Mohit-Saini9">
               <FaSquareGithub style={{ width: "30", height: "30" }} />
               Github
             </a>
           </div>
           <div className="hover:scale-110 duration-300">
-            <a href='mailto:mohit911545@gmail.com'>
+            <a href="mailto:mohit911545@gmail.com">
               <MdEmail style={{ width: "30", height: "30" }} />
               Mail
-              </a>
-          
+            </a>
           </div>
-          <div className="hover:scale-110 duration-300" >
-           <a href="https://www.linkedin.com/in/mohit-saini-713487283/">
-         
+          <div className="hover:scale-110 duration-300">
+            <a href="https://www.linkedin.com/in/mohit-saini-713487283/">
               <FaLinkedin style={{ width: "30", height: "30" }} />
-              Linkdin</a>
+              Linkdin
+            </a>
           </div>
         </div>
       </div>

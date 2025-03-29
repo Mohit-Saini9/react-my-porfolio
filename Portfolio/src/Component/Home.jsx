@@ -1,9 +1,6 @@
 import React from "react";
 import Mohit from "../Assets/MOHIT.jpg";
 import { Link } from "react-scroll";
-// import About from "./About";
-// import Experience from "./Experience";
-// import Conatact from "./Conatact";
 
 const Home = () => {
   return (
@@ -16,7 +13,6 @@ const Home = () => {
         <div className="px-3 mx-auto">
           <h2 className="text-4xl cursor-pointer md:text-7xl mt-20 text-gray-300  font-bold">
             <Link to={"home"} smooth duration={400}>
-              {" "}
               Hi I am Mohit Saini
             </Link>
           </h2>
@@ -27,9 +23,6 @@ const Home = () => {
             scalable, and user-friendly web applications. My expertise spans
             across building dynamic front-end interfaces, developing robust
             back-end services, and seamlessly integrating databases to deliver
-            {/* end-to-end solutions. In my journey so far, I have successfully
-            contributed to projects involving responsive web design, RESTful
-            APIs, and state management, demonstratings */}
           </p>
           <div className=" flex  justify-items-center items-center max-md:hidden  ">
             <button
@@ -76,9 +69,6 @@ const Home = () => {
           </button>
         </div>
       </div>
-      {/* <About/>
-    <Experience/>
-    <Conatact/> */}
     </div>
   );
 };

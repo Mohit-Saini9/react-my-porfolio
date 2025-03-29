@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => {
-  return ( 
+  return (
     <div name="about" className="w-full max-h-screen  ">
       <div className="justify-center items-center px-2 ">
         <p className="text-4xl sm:7xl font-bold underline text-black ">About</p>
@@ -12,8 +12,8 @@ const About = () => {
           dynamic, responsive, and high-performance web applications. My
           expertise lies in developing clean and maintainable code, utilizing
           modern front-end technologies, and creating seamless user experiences.
-          <br/>
-          <br/>
+          <br />
+          <br />
           <p>Portfolio website, E-commerce Application</p>
         </p>
         {/* <p className=" py-4 my-w-md text-2xl md:ml-20 sm:text-2xl">

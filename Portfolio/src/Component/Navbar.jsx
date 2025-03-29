@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,13 +12,11 @@ const Navbar = () => {
     { id: 4, link: "contact" },
   ];
 
- 
   return (
     <div
       className="flex justify-between items-center  bg-gradient-to-tr from-slate-700 to-gray-600
       w-full h-15 text-white fixed rounded-sm"
     >
-      
       <div>
         <h1 className="text-xl ml-2 font-signature">Mohit Saini</h1>
       </div>

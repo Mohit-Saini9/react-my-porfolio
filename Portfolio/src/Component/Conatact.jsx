@@ -7,17 +7,17 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
   
   return (
-    <div name="contact"  className=" w-full max-h-screen  ">
+    <div name="contact"  className=" w-full   text-white">
       <div className="flex flex-col min-w-screen-lg mx-auto  px-4">
         <div className="pb-8 ">
-          <p className="text-4xl font-bold inline border-b-4 border-black mr-0">
+          <p className="text-4xl font-bold inline border-b-4 text-black border-black mr-0">
             Contact
           </p>
           <p className="py-6 text-2xl ">
             Submit the below form to get in touch with me
           </p>
         </div>
-        <div className="flex justify-center items-center sm:px-4  ">
+        <div className="flex justify-center items-center sm:px-4  text-black">
           <form
             action="https://getform.io/f/bjjmqvzb"
             method="POST"
@@ -27,7 +27,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2  border-2  border-black rounded-md focus:outline-none"
+              className="p-2  border-2  border-black rounded-md focus:outline-none "
             />
             <input
               type="email"
@@ -40,11 +40,11 @@ const Contact = () => {
               name="message"
               placeholder="Enter your message"
               rows={"10"}
-              className="bg-transparent p-2 border-2  border-black  rounded-md focus:outline-none"
+              className="bg- p-2 border-2  border-black  rounded-md focus:outline-none"
             ></textarea>
             <button
-              className=" bg-cyan-300 mx-auto px-6 py-3 my-8 flex-items-center 
-             rounded-md hover:scale-110 duration-300 "
+              className=" bg-orange-400 mx-auto px-6 py-3 my-8 flex-items-center 
+             rounded-md hover:scale-110 duration-300 text"
             >
               Let's talk
             </button>

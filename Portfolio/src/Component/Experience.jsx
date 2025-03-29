@@ -24,7 +24,7 @@ const Experience = () => {
     <div name="experience"  className=" w-full ">
       <div className="mx-auto   w-full">
         <div className="px-2 ">
-          <p className="text-4xl font-bold underline  transition-all  ">
+          <p className="text-4xl font-bold underline  transition-all   ">
             Experience
           </p>
         </div>
@@ -35,7 +35,7 @@ const Experience = () => {
             <div
               key={id}
               className={`shadow:md  hover:scale-105 duration-200 gap-4
-               mt-5 ${style}`}
+               mt-5 `}
             >
               <img
                 src={src}

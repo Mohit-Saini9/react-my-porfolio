@@ -7,14 +7,14 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className=" w-full text-black">
+    <div name="home" className=" w-full max-h-screen-md text-black">
       {/* max-h-screen   md:max-h-screen sm:min-h-screen lg:h-screen md:h-screen */}
       <div
         className="max-w-screen-lg mx-auto flex flex-col items-center 
-      justify-between px-3 h-full md:flex-row "
+      justify-between px-3  md:flex-row "
       >
         <div className="px-3 mx-auto">
-          <h2 className="text-4xl cursor-pointer sm:text-7xl mt-20 text-slate-400  font-bold">
+          <h2 className="text-4xl cursor-pointer md:text-7xl mt-20 text-slate-400  font-bold">
             <Link to={"home"} smooth duration={400}>
               {" "}
               Hi I am Mohit Saini

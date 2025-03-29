@@ -10,7 +10,7 @@ import './index.css';
 export default function App() {
   
   return (
-    <div>
+    <div className='w-full h-screen'>
 
     <Navbar/> 
      <Home/>

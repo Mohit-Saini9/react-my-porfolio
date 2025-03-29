@@ -54,7 +54,7 @@ const Home = () => {
           <img
             src={Mohit}
             alt="img"
-            className=" rounded-xl  h-[75%] w-[75%] ml-10 md:mt-20 md:h-[90%]w-[80%]  "
+            className=" rounded-xl  w-40  ml-10 md:mt-20 md:h-[90%]w-[80%]  "
           />
         </div>
         <div className="flex justify-between p-2 text-l font-medium mt-0 md:hidden">

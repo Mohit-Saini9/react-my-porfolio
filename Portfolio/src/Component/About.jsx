@@ -1,28 +1,6 @@
 import React from "react";
 
 const About = () => {
-  // const projects = [
-  //   {
-  //     title: "Portfolio Website",
-  //     desc: "Personal portfolio built using React.js and Tailwind CSS.",
-  //   },
-  //   {
-  //     title: "E-commerce Application",
-  //     desc: "Full-stack MERN application with cart and authentication.",
-  //   },
-  //   {
-  //     title: "Learning Management System",
-  //     desc: "Developed responsive LMS UI using React.js.",
-  //   },
-  //   {
-  //     title: "GitHub Profile Fetcher",
-  //     desc: "Fetches GitHub user data using API integration.",
-  //   },
-  //   {
-  //     title: "Student Management System",
-  //     desc: "CRUD app to manage student records using React.js.",
-  //   },
-  // ];
   return (
     <div name="about" className="w-full ">
       <div className="max-w-6xl mx-auto px-4 py-10">

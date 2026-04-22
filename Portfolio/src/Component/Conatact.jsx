@@ -5,8 +5,8 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div name="contact" className=" w-full   text-white">
-      <div className="flex flex-col min-w-screen-lg mx-auto  px-4">
+    <div name="contact" className=" w-full mt-10  ">
+      <div className="flex flex-col  max-w-6xl mx-auto  px-4">
         <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 text-black border-black mr-0">
             Contact
@@ -41,36 +41,35 @@ const Contact = () => {
               className="bg- p-2 border-2  border-black  rounded-md focus:outline-none"
             ></textarea>
             <button
-              className=" bg-orange-400 mx-auto px-6 py-3 my-8 flex-items-center 
-             rounded-md hover:scale-110 duration-300 text"
+              className=" bg-gradient-to-tr from-gray-700 to-purple-800 hover:to-purple-900 mx-auto px-6 py-3 my-8 flex-items-center 
+             rounded-md hover:scale-110 duration-300 text-white"
             >
               Let's talk
             </button>
           </form>
         </div>
-
-        <div
-          className="inline-flex gap-10 text-xl font-medium items-center justify-center 
-        mb-5 w-full h-20   bg-gradient-to-tr from-slate-700 to-gray-600 text-white rounded-lg  "
-        >
-          <div className="hover:scale-110 duration-300">
-            <a href="https://github.com/Mohit-Saini9">
-              <FaSquareGithub style={{ width: "30", height: "30" }} />
-              Github
-            </a>
-          </div>
-          <div className="hover:scale-110 duration-300">
-            <a href="mailto:mohit911545@gmail.com">
-              <MdEmail style={{ width: "30", height: "30" }} />
-              Mail
-            </a>
-          </div>
-          <div className="hover:scale-110 duration-300">
-            <a href="https://www.linkedin.com/in/mohit-saini-713487283/">
-              <FaLinkedin style={{ width: "30", height: "30" }} />
-              Linkdin
-            </a>
-          </div>
+      </div>
+      <div
+        className="inline-flex gap-14 text-xl font-medium items-center justify-center 
+        w-full h-20   bg-gradient-to-br from-gray-800 to-purple-900 text-white   "
+      >
+        <div className="hover:scale-110 duration-300">
+          <a href="https://github.com/Mohit-Saini9">
+            <FaSquareGithub style={{ width: "30", height: "30" }} />
+            Github
+          </a>
+        </div>
+        <div className="hover:scale-110 duration-300">
+          <a href="mailto:mohit911545@gmail.com">
+            <MdEmail style={{ width: "30", height: "30" }} />
+            Mail
+          </a>
+        </div>
+        <div className="hover:scale-110 duration-300">
+          <a href="https://www.linkedin.com/in/mohit-saini-713487283/">
+            <FaLinkedin style={{ width: "30", height: "30" }} />
+            Linkdin
+          </a>
         </div>
       </div>
     </div>
